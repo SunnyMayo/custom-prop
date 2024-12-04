@@ -1,0 +1,32 @@
+:root.spring {
+    --text-color: rgb(43, 42, 29);
+    --bg-color: rgb(233, 101, 13);
+    --btn-color: rgb(220, 99, 0);
+}
+
+:root.winter {
+    --text-color: rgb(211, 243, 236);
+    --bg-color: rgb(6, 23, 175);
+    --btn-color: rgba(83, 11, 112, 0.116);
+}
+
+:root.summer {
+    --text-color: rgb(250, 236, 42);
+    --bg-color: rgb(240,56,12);
+    --btn-color: rgb(220,40,0);
+}
+
+:root.autumn {
+    --text-color: rgb(102, 189, 102);
+    --bg-color: rgb(78, 48, 12);
+    --btn-color: rgb(71, 50, 32);
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+    color: var(--text-color);
+}
