@@ -1,5 +1,6 @@
 :root.spring {
     --text-color: rgb(43, 42, 29);
+    --text-color-big: rgb(49, 24, 20);
     --bg-color: rgb(233, 101, 13);
     --btn-color: rgb(220, 99, 0);
 }
@@ -29,4 +30,15 @@ a {
 li {
     list-style-type: none;
     color: var(--text-color);
+}
+
+table, th, td {
+    border-style: solid;
+    border-width: 2px;
+    border-collapse: collapse;
+}
+
+div {
+    color: var(--text-color);
+    background-color: var(--bg-color);
 }
